@@ -1,59 +1,47 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const Navbar = () => {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
+  const scrollToAbout = () => {
+    scroll.scrollTo(document.getElementById('about').offsetTop - 70);
+  };
+
+  const scrollToProjects = () => {
+    scroll.scrollTo(document.getElementById('projects').offsetTop - 70);
+  };
+
+  const scrollToContact = () => {
+    scroll.scrollTo(document.getElementById('contact').offsetTop - 70);
+  };
+
+  const scrollToTechNews = () => {
+    scroll.scrollTo(document.getElementById('technews').offsetTop - 70);
+  };
+
   return (
-    <nav className="navbar">
-      <ul className="nav-links">
-        <li>
-          <Link
-            activeClass="active"
-            to="home"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClass="active"
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
-            About
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClass="active"
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link
-            activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
-            Contact
-          </Link>
-        </li>
-      </ul>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div className="navbar-nav d-flex flex-row">
+        <button className="nav-link btn btn-link" onClick={scrollToTop}>
+          Home
+        </button>
+        <button className="nav-link btn btn-link" onClick={scrollToAbout}>
+          About
+        </button>
+        <button className="nav-link btn btn-link" onClick={scrollToProjects}>
+          Projects
+        </button>
+        <button className="nav-link btn btn-link" onClick={scrollToContact}>
+          Contact
+        </button>
+        <br />
+        <button className="nav-link btn btn-link" onClick={scrollToTechNews}>
+          TechNews
+        </button>
+      </div>
     </nav>
   );
 };

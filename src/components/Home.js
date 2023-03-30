@@ -1,43 +1,25 @@
 import React from "react";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import GithubIcon from "@material-ui/icons/GitHub";
-import "../styles/Home.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/Home.css';
+import RunnerImg from "../assets/Runner.jpg";
 
 function Home() {
   return (
     <div className="home">
-      <div className="about">
-        <h2> Hi, My Name is Pedro</h2>
-        <div className="prompt">
-          <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="text-container">
+              <h2>Hey, I am Marinka!</h2>
+              <h2>The Full Stack Developer Who Embraces Challenges & Stays Positive Even When It Rains!</h2>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="image-container float-end">
+              <img src={RunnerImg} alt="Marinka running in the rain" className="img-fluid custom-img-size" />
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="skills">
-        <h1> Skills</h1>
-        <ol className="list">
-          <li className="item">
-            <h2> Front-End</h2>
-            <span>
-              ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
-              Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
-            </span>
-          </li>
-          <li className="item">
-            <h2>Back-End</h2>
-            <span>
-              NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
-              MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
-            </span>
-          </li>
-          <li className="item">
-            <h2>Languages</h2>
-            <span>HTML, CSS, JavaScript</span>
-          </li>
-        </ol>
       </div>
     </div>
   );

@@ -1,0 +1,20 @@
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .news-card {
+    width: 200px;
+    margin: 10px;
+  }
+.tech-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  
+  
+  

@@ -1,8 +1,9 @@
 import React from 'react';
-import { Navbar } from './components';
+import Navbar from './components/Navbar';
+import Projects from './components/Projects';
 import Home from './components/Home';
 import About from './components/About';
-import Projects from './components/Projects';
+import TechNews from './components/TechNews';
 import Contact from './components/Contact';
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
       </section>
       <section id="contact">
         <Contact />
+      </section>
+      <section id="technews">
+        <TechNews />
       </section>
     </div>
   );

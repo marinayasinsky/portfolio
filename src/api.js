@@ -1,8 +1,12 @@
-import axios from "axios";
+import axios from 'axios';
 
-const BASE_URL = "https://example.com/api";
+const apiKey = 'a26b4e22d5b441e2887475128febf6e1';
 
-export const getProjectDetails = async (projectId) => {
-  const response = await axios.get(`${BASE_URL}/projects/${projectId}`);
-  return response.data;
-};
+const api = axios.create({
+  baseURL: 'https://newsapi.org/v2',
+  headers: {
+    Authorization: `Bearer ${apiKey}`,
+  },
+});
+
+export default api;
