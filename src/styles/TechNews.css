@@ -17,4 +17,16 @@
   }
   
   
+  .carousel-caption h5 {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  
+  .carousel-caption p {
+    font-size: 14px;
+    line-height: 1.2;
+    max-height: 40px; 
+    max-width: min-content;/* or any other height that fits your design */
+    overflow: hidden;
+  }
   

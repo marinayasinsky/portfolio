@@ -7,11 +7,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col-12 text-center my-4">
-          <h1>Contact Me</h1>
+    <>
+    <div className="col-12 text-center my-4">
+        <h1 className="lg=4">Contact Me</h1>
         </div>
+    <div >
+        
+      <div className="row">
       </div>
       <div className="row justify-content-center">
         <div className="col-lg-6">
@@ -33,6 +35,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

@@ -5,8 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Projects() {
   return (
     <section id="projects" className="py-5">
+       <div className="text-center">
+        <h1 className="lg=20" >Projects</h1>
+        </div>
       <div className="container">
-        <h2 className="mb-5">Projects</h2>
+        
         <div className="row">
           <div className="col-md-6">
             <Card>

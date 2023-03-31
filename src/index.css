@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(247, 243, 243);
+  box-shadow:
+  inset 500px 0 120px #E9F1FA,  
+  inset -200px 0 120px rgb(180, 239, 239); 
+  font-family: 'TK-ARCHITECT', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+@font-face {
+  font-family: 'TK-ARCHITECT';
+  src: url('./styles/TK-ARCHITECT.ttf') format('truetype');
+}
+
+h1, h2, h3, h4, p {
+  font-family: 'TK-ARCHITECT', sans-serif;
 }

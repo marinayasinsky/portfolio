@@ -1,4 +1,13 @@
 
+@font-face {
+    font-family: 'TK-ARCHITECT';
+    src: url('./TK-ARCHITECT.ttf') format('truetype');
+  }
+
+h1, h2, h3, p {
+    font-family: 'TK-ARCHITECT', sans-serif;
+  }
+  
   
 .home {
     height: 100vh;
