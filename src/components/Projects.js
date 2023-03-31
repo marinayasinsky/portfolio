@@ -6,7 +6,7 @@ function Projects() {
   return (
     <section id="projects" className="py-5">
        <div className="text-center">
-        <h1 className="lg=20" >Projects</h1>
+        <h1 className="page-header lg=4" >Projects</h1>
         </div>
       <div className="container">
         

@@ -17,7 +17,7 @@ h1, h2, h3, p {
     background-color: rgb(245, 238, 238);
     box-shadow:
     inset 60px 0 120px rgb(220, 244, 167),  
-    inset -60px 0 120px rgb(180, 239, 239); 
+    inset -60px 0 120px #8C92AC; 
   }
   .about {
     height: 100vh;
@@ -25,9 +25,10 @@ h1, h2, h3, p {
     align-items: center;
     padding: 50px;
     background-color: rgb(245, 238, 238);
+    
     box-shadow:
     inset 60px 0 120px rgb(220, 244, 167),  
-    inset -60px 0 120px rgb(180, 239, 239); 
+    inset -60px 0 120px #8C92AC; 
   }
   .container {
     font: "Avenir", Helvetica, Arial, sans-serif;
@@ -61,18 +62,21 @@ h1, h2, h3, p {
   }
   
   .image-container img {
+    height: 100%;
     width: 100%; /* set image width to 100% to fill container */
   }
   
   
   .navbar {
+    font-family: 'TK-ARCHITECT', sans-serif;
+
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     display: flex;
     justify-content: flex-end;
-    background-color: rgb(237, 218, 218) !important;
+    background-color: #E3E5F7 !important;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(212, 153, 153, 0.2) !important;
     z-index: 1;

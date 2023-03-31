@@ -11,7 +11,7 @@ function Home() {
           <div className="col-md-6">
             <div className="text-container">
               <h2>Hey, I am Marinka!</h2>
-              <h2>The Full Stack Developer Who Embraces Challenges & Stays Positive Even When It Rains!</h2>
+              <h2>NYC Based Full Stack Developer Who Embraces Challenges & Stays Positive Even When It Rains!</h2>
             </div>
           </div>
           <div className="col-md-6">

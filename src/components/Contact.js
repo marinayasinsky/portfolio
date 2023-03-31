@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <>
     <div className="col-12 text-center my-4">
-        <h1 className="lg=4">Contact Me</h1>
+        <h1 className="page-header lg=4">Contact Me</h1>
         </div>
     <div >
         

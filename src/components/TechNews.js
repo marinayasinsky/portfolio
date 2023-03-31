@@ -18,7 +18,7 @@ const TechNews = () => {
   return (
     <>
     <div>
-      <h1 className="text-center my-4">Latest Tech News</h1>
+      <h1 className="text-center page-header lg=4">Latest Tech News</h1>
       </div>
    
     <div className="container">

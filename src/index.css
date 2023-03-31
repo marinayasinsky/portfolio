@@ -8,7 +8,7 @@ body {
   background-color: rgb(247, 243, 243);
   box-shadow:
   inset 500px 0 120px #E9F1FA,  
-  inset -200px 0 120px rgb(180, 239, 239); 
+  inset -200px 0 120px #8C92AC; 
   font-family: 'TK-ARCHITECT', sans-serif;
 }
 
@@ -25,4 +25,19 @@ code {
 
 h1, h2, h3, h4, p {
   font-family: 'TK-ARCHITECT', sans-serif;
+}
+.page-header {
+  font-size: 2.5rem;
+  
+  color: #34383c;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-color: rgb(247, 254, 254);
+  box-shadow:
+  inset 500px 0 120px #E9F1FA,  
+  inset -200px 0 120px rgb(237, 218, 218); 
+}
+
+footer {
+  background-color: bisque !important;
 }
