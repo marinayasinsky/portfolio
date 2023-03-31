@@ -17,12 +17,19 @@ h1, h2, h3, p {
   
   }
   .about {
-    height: 100vh;
+    min-height: calc(100vh - 250px);
     display: flex;
     align-items: center;
     padding: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 
   }
+  .container.about-container {
+    padding-top: 50px; /* adjust top padding as needed */
+    padding-bottom: -100px; /* adjust bottom padding as needed */
+  }
+  
   .container {
     font: "Avenir", Helvetica, Arial, sans-serif;
     display: flex;
