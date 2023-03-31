@@ -5,10 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(247, 243, 243);
+ 
+  background-color: rgb(245, 238, 238);
   box-shadow:
-  inset 500px 0 120px #E9F1FA,  
-  inset -200px 0 120px #8C92AC; 
+  inset 60px 0 120px rgb(220, 244, 167),  
+  inset -60px 0 120px #8C92AC; 
   font-family: 'TK-ARCHITECT', sans-serif;
 }
 
@@ -28,10 +29,10 @@ h1, h2, h3, h4, p {
 }
 .page-header {
   font-size: 2.5rem;
-  
+  padding: 3px;
   color: #34383c;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
   background-color: rgb(247, 254, 254);
   box-shadow:
   inset 500px 0 120px #E9F1FA,  
@@ -40,4 +41,7 @@ h1, h2, h3, h4, p {
 
 footer {
   background-color: bisque !important;
+}
+.about {
+  margin-top: -10rem;
 }

@@ -14,21 +14,14 @@ h1, h2, h3, p {
     display: flex;
     align-items: center;
     padding: 50px;
-    background-color: rgb(245, 238, 238);
-    box-shadow:
-    inset 60px 0 120px rgb(220, 244, 167),  
-    inset -60px 0 120px #8C92AC; 
+  
   }
   .about {
     height: 100vh;
     display: flex;
     align-items: center;
     padding: 50px;
-    background-color: rgb(245, 238, 238);
-    
-    box-shadow:
-    inset 60px 0 120px rgb(220, 244, 167),  
-    inset -60px 0 120px #8C92AC; 
+
   }
   .container {
     font: "Avenir", Helvetica, Arial, sans-serif;
@@ -68,15 +61,14 @@ h1, h2, h3, p {
   
   
   .navbar {
-    font-family: 'TK-ARCHITECT', sans-serif;
-
+    font-family: 'TK-ARCHITECT', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     display: flex;
     justify-content: flex-end;
-    background-color: #E3E5F7 !important;
+    background-color: #dadce8 !important; ;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(212, 153, 153, 0.2) !important;
     z-index: 1;
