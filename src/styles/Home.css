@@ -75,13 +75,22 @@ h1, h2, h3, p {
     left: 0;
     display: flex;
     justify-content: flex-end;
-    background-color: #dadce8 !important; ;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(212, 153, 153, 0.2) !important;
+    color: #34383c;
+    background-color: rgb(247, 254, 254);
+    box-shadow:
+    inset 500px 0 120px #E9F1FA,  
+    inset -200px 0 120px rgb(247, 242, 242); 
     z-index: 1;
   }
 
   .navbar-nav .nav-link {
     margin-right: 10px;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px !important;
   }
   

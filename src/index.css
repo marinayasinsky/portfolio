@@ -39,9 +39,29 @@ h1, h2, h3, h4, p {
   inset -200px 0 120px rgb(237, 218, 218); 
 }
 
-footer {
-  background-color: bisque !important;
+.footer {
+
+  color: #34383c;
+  background-color: rgb(247, 254, 254);
+  box-shadow:
+  inset 500px 0 120px #E9F1FA,  
+  inset -200px 0 120px rgb(247, 242, 242); 
 }
 .about {
   margin-top: -10rem;
 }
+
+.card-img-top {
+  object-fit: cover;
+  height: 80%;
+  width: 80%;
+}
+
+
+.resume {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+margin-left: 100px !important;
+}
+
+

@@ -21,7 +21,7 @@ const TechNews = () => {
       <h1 className="text-center page-header lg=4">Latest Tech News</h1>
       </div>
    
-    <div className="container">
+    <div className="container col-lg-10 h-10">
       <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           {articles.slice(0, 4).map((article, index) => (

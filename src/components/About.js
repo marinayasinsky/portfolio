@@ -10,7 +10,7 @@ const About = () => {
         <h1 className="page-header lg=4 mb-0">About Me</h1>
       </div>
     <div className="about">
-      <Container className="about-container">
+      <Container className="about-container p-1">
         <Row>
           <Col>
           <p>As a software engineering bootcamp student with over 10 years of experience in business development and account management, I have developed a strong foundation in HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, Mongoose, React, SQL, and computer science concepts.</p>
@@ -20,11 +20,9 @@ const About = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
-            <div className="resume">
-              <h4>Resume</h4>
-              <p>Download my resume:</p>
-              <Button variant="secondary" href={resume}  download>
+          <Col className="d-flex justify-content-end">
+            <div className="resume ml-auto">
+              <Button variant="secondary" href={resume}  download className="mr-3">
                 Download Resume
               </Button>
             </div>

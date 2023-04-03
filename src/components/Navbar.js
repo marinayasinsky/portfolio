@@ -23,7 +23,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top fw-bold fs-5">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top fw-bold fs-5">
       <div className="navbar-nav d-flex flex-row">
         <button className="nav-link btn btn-link" onClick={scrollToTop}>
           Home
