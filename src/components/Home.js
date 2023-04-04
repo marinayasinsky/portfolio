@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import '../styles/Home.css';
 import RunnerImg from "../assets/Runner.jpg";
 
@@ -21,6 +21,8 @@ function Home() {
                 <a href="https://github.com/marinayasinsky" target="_blank" rel="noopener noreferrer" className="ms-4">
                   <FontAwesomeIcon icon={faGithub} size="3x" color="#888"/>
                 </a>
+             
+
               </div>
             </div>
           </div>
