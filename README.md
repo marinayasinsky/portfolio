@@ -11,6 +11,7 @@ This is a simple portfolio website built with React. The website showcases Marin
 - Responsive design optimized for desktop and mobile devices
 Navbar with links to all pages that smoothly scrolls to the relevant sections
 - Downloadable resume in the About Me page
+- State management using React hooks, including useState for form input fields and checkboxes, and useEffect for fetching data from the News API and Marinka's API.
 
 ## Wireframe
 
@@ -53,8 +54,15 @@ This project was built using the following technologies:
 
 - React-FontAwesome: I used this package to display social media icons in my footer section. The FontAwesomeIcon component from react-fontawesome was used to import and render the appropriate icons for each social media platform (e.g. LinkedIn, GitHub, and email).
 
+- EmailJS: I used this package to set up and send emails from the contact form on the website. Specifically, I used the EmailJS API to configure email templates and integrate the form submission with an email service. The email service sends an email to my designated email address whenever a user submits the contact form on the website.
+
 - Axios: I used this package to fetch data from the News API and display it in the News component. Specifically, the axios.get() method was used to make a GET request to the News API endpoint, and the response data was used to dynamically render news articles in a card format. I also used axios to fetch data from my own API in the Projects component, to dynamically render the projects from the API in the project cards.
 
 ## API Used
 - News API: used to display the latest technology news
 
+## References 
+- Awesome Classmates!
+- https://stackoverflow.com/
+- https://www.youtube.com/
+- https://fontawesome.com/

@@ -21,7 +21,7 @@ function Projects() {
                 <Card.Text>
                   This is a simple Star Wars-themed React web application that utilizes the Star Wars API to display information about various Star Wars characters, planets, and starships.
                 </Card.Text>
-                <Button variant="primary" href="https://marinayasinsky.github.io/react-star-wars/" target="_blank">
+                <Button variant="secondary" href="https://marinayasinsky.github.io/react-star-wars/" target="_blank">
                   View Project
                 </Button>
               </Card.Body>
@@ -35,7 +35,7 @@ function Projects() {
                 <Card.Text>
                   This is a classic Tic Tac Toe game built using HTML, CSS, and vanilla JavaScript. It features a simple and clean user interface, and it allows users to play against the computer.
                 </Card.Text>
-                <Button variant="primary" href="https://marinayasinsky.github.io/TicTacToe/" target="_blank">
+                <Button variant="secondary" href="https://marinayasinsky.github.io/TicTacToe/" target="_blank">
                   View Project
                 </Button>
               </Card.Body>
@@ -49,7 +49,7 @@ function Projects() {
                 <Card.Text>
                   An ecommerce shop is an online store where businesses sell their products or services to customers through the internet.
                 </Card.Text>
-                <Button variant="primary" href="#" target="_blank">
+                <Button variant="secondary" href="#" target="_blank">
                   View Project
                 </Button>
               </Card.Body>
