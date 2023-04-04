@@ -15,7 +15,7 @@ Navbar with links to all pages that smoothly scrolls to the relevant sections
 
 ## Wireframe
 
-The wireframe for this project was created using Figma. The wireframe was designed to provide a visual representation of the website's layout and features.
+The wireframe for this project was created using Figma. 
 
 <img src="./src/assets/Portfolio.jpg" alt="Portfolio Wireframe" width="500"/>
 
