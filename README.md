@@ -1,17 +1,17 @@
-# Marinka's Portfolio React App
+# Portfolio React App
 
-This is a simple portfolio website built with React. The website showcases Marinka's skills and projects. The website is deployed using Netlify and is accessible at https://marinkas-portfolio.netlify.app/.
+This is a simple portfolio website built with React. The website showcases My skills and projects. The website is deployed using Netlify and is accessible at https://marinkas-portfolio.netlify.app/.
 
 ## Features
-- Home page with a welcome message and links to Marinka's LinkedIn and GitHub profiles.
-- About page with a brief introduction of Marinka's background, skills, and interests, as well as a downloadable resume.
-- Projects page with a list of Marinka's recent projects, including descriptions and links to view the projects online.
-- Contact page with a simple form for visitors to contact Marinka.
+- Home page with a welcome message and links to LinkedIn and GitHub profiles.
+- About page with a brief introduction of my background, skills, and interests, as well as a downloadable resume.
+- Projects page with a list of recent projects, including descriptions and links to view the projects online.
+- Contact page with a simple form for visitors to contact Me.
 - Tech News section displaying the latest technology news, using the News API.
 - Responsive design optimized for desktop and mobile devices
-Navbar with links to all pages that smoothly scrolls to the relevant sections
+- Navbar with links to all pages that smoothly scrolls to the relevant sections
 - Downloadable resume in the About Me page
-- State management using React hooks, including useState for form input fields and checkboxes, and useEffect for fetching data from the News API and Marinka's API.
+- State management using React hooks, including useState for form input fields, and useEffect for fetching data from the News API.
 
 ## Wireframe
 
@@ -44,6 +44,8 @@ This project was built using the following technologies:
 ![HTML5](https://img.shields.io/badge/-HTML5-e34c26?style=flat-square&logo=html5&logoColor=white)
 
 ![CSS3](https://img.shields.io/badge/-CSS3-1572b6?style=flat-square&logo=css3&logoColor=white)
+
+![EmailJS](https://img.shields.io/badge/-EmailJS-2B2D42?style=flat-square&logo=emailjs&logoColor=white)
 
 
 
