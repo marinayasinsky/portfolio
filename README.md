@@ -63,6 +63,7 @@ This project was built using the following technologies:
 
 ## References 
 - Awesome Classmates!
+- https://css-tricks.com/css3-gradients/
 - https://stackoverflow.com/
 - https://www.youtube.com/
 - https://fontawesome.com/
